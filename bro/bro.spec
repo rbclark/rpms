@@ -33,7 +33,7 @@ Requires:         caf
 BuildRequires:    caf-devel
 Requires:         bind-libs
 BuildRequires:    bind-devel
-Requires:         libmaxminddb
+Requires:         libmaxminddb0
 BuildRequires:    libmaxminddb-devel
 %ifnarch s390 s390x
 Requires:         gperftools-libs
